@@ -2,14 +2,29 @@
 
 Pull the repository using:
 
-```term
-git pull
+```
+git pull git@github.com:BartekButrym/infinite-scroll.git
 ```
 
-Currently, two official plugins are available:
+Then:
 
--   [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
--   [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```
+cd infinite-loader
+```
+
+and install dependencies by running:
+
+```
+npm install
+```
+
+Run the application using command:
+
+```
+npm start
+```
+
+This will start server on `http://localhost:5173/`
 
 ## Expanding the ESLint configuration
 
